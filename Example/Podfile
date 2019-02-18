@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XVIEWCoreManager_Example' do
+  pod 'XVIEWCoreManager', :path => '../'
+
+  target 'XVIEWCoreManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
