@@ -65,7 +65,7 @@
 		A36EE9B05B1FEEB1E6B076ED /* Pods_XVIEWCoreManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XVIEWCoreManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1397DD86DD99E16C7CCE4A5 /* Pods-XVIEWCoreManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWCoreManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWCoreManager_Tests/Pods-XVIEWCoreManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D9D971B63455A3888350F6AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E19D4432B9BAFD4DFBC9F018 /* XVIEWCoreManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XVIEWCoreManager.podspec; path = ../XVIEWCoreManager.podspec; sourceTree = "<group>"; };
+		E19D4432B9BAFD4DFBC9F018 /* XVIEWCoreManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XVIEWCoreManager.podspec; path = ../XVIEWCoreManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E339FC9B747E3B98886AA6B9 /* Pods-XVIEWCoreManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWCoreManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWCoreManager_Tests/Pods-XVIEWCoreManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
