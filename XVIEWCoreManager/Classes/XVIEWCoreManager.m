@@ -127,7 +127,7 @@ NSString * const ComponentPush      = @"XVIEWPushManager";
     NSString *action = dict[@"action"];
     NSDictionary *param = dict[@"param"];
     void (^myCallback)(NSDictionary *dict) = dict[@"callback"];
-    [[ZDRouter sharedRouter] performTarget:TARGET(target) withAction:ACTION(target, action) andParam:param andVC:dict[@"vc"] withCallBack:^(NSDictionary *dict) {
+    [[ZDRouter sharedRouter] performTarget:target withAction:ACTION(target, action) andParam:param andVC:dict[@"vc"] withCallBack:^(NSDictionary *dict) {
         myCallback(dict);
     }];
 }
