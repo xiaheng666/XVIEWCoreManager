@@ -26,33 +26,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DD96C54FE6DECBD40AF483BD2F38EE8 /* XVIEWCoreManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XVIEWCoreManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1A6B92B16EB853CA892106BD162C8C95 /* Pods-XVIEWCoreManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWCoreManager_Example-resources.sh"; sourceTree = "<group>"; };
 		247A849E8418F8112A40EBF281C83E1E /* Pods-XVIEWCoreManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XVIEWCoreManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		2C7E0BF912E61BA5440766E495ADC28B /* Pods-XVIEWCoreManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XVIEWCoreManager_Tests.modulemap"; sourceTree = "<group>"; };
+		2E7335307256983206A5F787904B8B19 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		31EC8D908DD89A7224360C55F708826F /* Pods-XVIEWCoreManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XVIEWCoreManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		338577644676323336260F146A7236E4 /* Pods-XVIEWCoreManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XVIEWCoreManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4C26DB02A78A08189B7CB124C3E275FA /* Pods_XVIEWCoreManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XVIEWCoreManager_Tests.framework; path = "Pods-XVIEWCoreManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57316CA6D0C67E7D03A81CBC0410F03A /* Pods-XVIEWCoreManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWCoreManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6D9ABBFAC3052BBD80363603E860522C /* Pods-XVIEWCoreManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XVIEWCoreManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6EDAE6FC89CEC75BFEAB29DBFA000E7C /* Component.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Component.h; path = XVIEWCoreManager/Classes/Component.h; sourceTree = "<group>"; };
 		7719856A6B6A0A1CF5853762795D28D3 /* Pods-XVIEWCoreManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XVIEWCoreManager_Example-dummy.m"; sourceTree = "<group>"; };
 		77F30CC80E099F546BBB69B6804A1F8A /* Pods-XVIEWCoreManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWCoreManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8A00D66B81C76B0D5626BBD440253332 /* Pods-XVIEWCoreManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XVIEWCoreManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		8D9CDD38E807AF02955C9B493543069E /* ZDRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZDRouter.h; path = XVIEWCoreManager/Classes/ZDRouter.h; sourceTree = "<group>"; };
 		8F1333C12BE97DEB6ADD0F8DCA1B2A9F /* Pods-XVIEWCoreManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWCoreManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		91E91990CCACA83BCD358D9A5F928A35 /* Pods_XVIEWCoreManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XVIEWCoreManager_Example.framework; path = "Pods-XVIEWCoreManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		935A18021AC2D53FEF0129674C44F1D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B2A740391DCF14B76CB243D6A882846 /* Pods-XVIEWCoreManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XVIEWCoreManager_Example.modulemap"; sourceTree = "<group>"; };
 		9D20789C6E15C270590791E8B3C65DA1 /* Pods-XVIEWCoreManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWCoreManager_Tests-resources.sh"; sourceTree = "<group>"; };
-		A62AE40A03FCE275B764136C531FE7ED /* XVIEWCoreManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XVIEWCoreManager.h; path = XVIEWCoreManager/Classes/XVIEWCoreManager.h; sourceTree = "<group>"; };
-		A8369CDBB35A925902979DCBC4AF8FDB /* XVIEWCoreManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XVIEWCoreManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B6A097E92DF350EABA3F76267BD1D9CE /* Pods-XVIEWCoreManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWCoreManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BB48B361D86FD872FF7D0B371BA378C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		C23DBCACCC5B02DF748B29CA04FE8A85 /* libCoreManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCoreManager.a; path = XVIEWCoreManager/Classes/libCoreManager.a; sourceTree = "<group>"; };
+		B835E7281C05EAAD1F39A6FD05176B18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C75C1C12CB5D28D4F0F64775EC7398E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CAF1959F693B808D20AEE96D332904F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D83EE0D54510A9C7C171E9E06B064492 /* Pods-XVIEWCoreManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWCoreManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		ED3F91AE3FCFE7287F932BBE584E5406 /* Pods-XVIEWCoreManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XVIEWCoreManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FABBBF192E1230C8CEE8CD9C58AF8E97 /* Pods-XVIEWCoreManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWCoreManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -79,16 +75,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CFA04CB64E30034A5769217D9570D34 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CAF1959F693B808D20AEE96D332904F5 /* LICENSE */,
-				BB48B361D86FD872FF7D0B371BA378C8 /* README.md */,
-				A8369CDBB35A925902979DCBC4AF8FDB /* XVIEWCoreManager.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		10A776B73F06A5A45035C15D58DEA3A6 /* Pods-XVIEWCoreManager_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +91,14 @@
 			);
 			name = "Pods-XVIEWCoreManager_Tests";
 			path = "Target Support Files/Pods-XVIEWCoreManager_Tests";
+			sourceTree = "<group>";
+		};
+		23BC44C1959041529D829ADDFE5D5D12 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F9C41DC779F5EBC5ECDF92FB551F5FB /* XVIEWCoreManager */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		4589431DA915B0CF2504386BA2A09F0E /* Pods-XVIEWCoreManager_Example */ = {
@@ -133,19 +127,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		77CE34190FC0A2EF790E22BE0A970609 /* Development Pods */ = {
+		6F9C41DC779F5EBC5ECDF92FB551F5FB /* XVIEWCoreManager */ = {
 			isa = PBXGroup;
 			children = (
-				FD180814BAC0AEDD49E143386CD089B7 /* XVIEWCoreManager */,
+				D754917A911C53DB791DECB12D522A05 /* Pod */,
 			);
-			name = "Development Pods";
+			name = XVIEWCoreManager;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				77CE34190FC0A2EF790E22BE0A970609 /* Development Pods */,
+				23BC44C1959041529D829ADDFE5D5D12 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				DE3D713690D58CB0170509AD950E9C39 /* Products */,
 				941E16708F77EDD86C57F173681E23E8 /* Targets Support Files */,
@@ -161,20 +156,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A58E5B749ACB84AE299E71DD98C1A40A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C23DBCACCC5B02DF748B29CA04FE8A85 /* libCoreManager.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D754917A911C53DB791DECB12D522A05 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B835E7281C05EAAD1F39A6FD05176B18 /* LICENSE */,
+				2E7335307256983206A5F787904B8B19 /* README.md */,
+				0DD96C54FE6DECBD40AF483BD2F38EE8 /* XVIEWCoreManager.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		DE3D713690D58CB0170509AD950E9C39 /* Products */ = {
@@ -184,19 +181,6 @@
 				4C26DB02A78A08189B7CB124C3E275FA /* Pods_XVIEWCoreManager_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FD180814BAC0AEDD49E143386CD089B7 /* XVIEWCoreManager */ = {
-			isa = PBXGroup;
-			children = (
-				6EDAE6FC89CEC75BFEAB29DBFA000E7C /* Component.h */,
-				A62AE40A03FCE275B764136C531FE7ED /* XVIEWCoreManager.h */,
-				8D9CDD38E807AF02955C9B493543069E /* ZDRouter.h */,
-				A58E5B749ACB84AE299E71DD98C1A40A /* Frameworks */,
-				0CFA04CB64E30034A5769217D9570D34 /* Pod */,
-			);
-			name = XVIEWCoreManager;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
