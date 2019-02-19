@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "Component.h"
+#import "XVIEWCoreManager.h"
+#import "ZDRouter.h"
 
 FOUNDATION_EXPORT double XVIEWCoreManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char XVIEWCoreManagerVersionString[];

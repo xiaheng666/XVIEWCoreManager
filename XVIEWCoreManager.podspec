@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XVIEWCoreManager/Classes/*.{h,m},XVIEWCoreManager/Classes/*.plist'
+  s.source_files = 'XVIEWCoreManager/Classes/*'
 
   # s.ios.vendored_libraries = 'XVIEWCoreManager/Classes/*.a'
   
