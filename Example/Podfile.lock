@@ -1,0 +1,16 @@
+PODS:
+  - XVIEWCoreManager (0.1.0)
+
+DEPENDENCIES:
+  - XVIEWCoreManager (from `../`)
+
+EXTERNAL SOURCES:
+  XVIEWCoreManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XVIEWCoreManager: 8916c14f53e163571b296413d3bad1a2fc97948f
+
+PODFILE CHECKSUM: dd710669156f2165151662f66936fdfebe8b34b0
+
+COCOAPODS: 1.5.3

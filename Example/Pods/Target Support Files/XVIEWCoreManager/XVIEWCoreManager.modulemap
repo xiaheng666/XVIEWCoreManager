@@ -1,0 +1,6 @@
+framework module XVIEWCoreManager {
+  umbrella header "XVIEWCoreManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

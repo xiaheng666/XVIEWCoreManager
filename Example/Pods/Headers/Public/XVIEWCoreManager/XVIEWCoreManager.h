@@ -1,0 +1,1 @@
+../../../../../XVIEWCoreManager/Classes/XVIEWCoreManager.h
