@@ -488,7 +488,9 @@
 			baseConfigurationReference = 8ABAB021D9177B453427EF7F /* Pods-XVIEWCoreManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				DEVELOPMENT_TEAM = 24N474AU9T;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XVIEWCoreManager/XVIEWCoreManager-Prefix.pch";
 				INFOPLIST_FILE = "XVIEWCoreManager/XVIEWCoreManager-Info.plist";
@@ -504,7 +506,9 @@
 			baseConfigurationReference = 2C758E5718971FD45A9E0E54 /* Pods-XVIEWCoreManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				DEVELOPMENT_TEAM = 24N474AU9T;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XVIEWCoreManager/XVIEWCoreManager-Prefix.pch";
 				INFOPLIST_FILE = "XVIEWCoreManager/XVIEWCoreManager-Info.plist";

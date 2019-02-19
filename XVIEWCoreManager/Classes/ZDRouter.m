@@ -51,7 +51,10 @@
     Class targetClass = NSClassFromString(TARGET(targetName));
     if (targetClass) {
         SEL managerSel = NSSelectorFromString(SharedName(target));
-        NSObject *object = objc_msgSend(targetClass, managerSel);
+        #pragma clang diagnostic push
+        #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+        NSObject *object = [targetClass performSelector:managerSel];
+        #pragma clang diagnostic pop
         SEL sel = NSSelectorFromString(actionName);
         NSMutableDictionary *para = [NSMutableDictionary dictionary];
         if (callback) [para setObject:callback          forKey:@"callback"];
