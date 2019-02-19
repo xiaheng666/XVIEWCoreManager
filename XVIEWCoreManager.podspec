@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWCoreManager'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = '核心中转站'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XVIEWCoreManager/Classes/*'
+  s.source_files = 'XVIEWCoreManager/Classes/*.{h,m}'
 
+  s.resources = [
+    "XVIEWCoreManager/Classes/component.plist"
+  ]
   # s.ios.vendored_libraries = 'XVIEWCoreManager/Classes/*.a'
   
   # s.resource_bundles = {
