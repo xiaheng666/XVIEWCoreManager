@@ -215,5 +215,15 @@
 		<key>Check</key>
 		<string>checkNetwork:</string>
 	</dict>
+	<key>ComponentAmap</key>
+	<dict>
+		<key>target</key>
+		<string>AMap</string>
+	</dict>
+	<key>ComponentUmeng</key>
+	<dict>
+		<key>target</key>
+		<string>Umeng</string>
+	</dict>
 </dict>
 </plist>

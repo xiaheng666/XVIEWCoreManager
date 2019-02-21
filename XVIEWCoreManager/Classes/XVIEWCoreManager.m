@@ -22,39 +22,39 @@ typedef enum : NSUInteger {
 } Platform;
 
 /* 网络库 */
-NSString * const ComponentNetwork   = @"XVIEWNetworkManager";
+NSString * const ComponentNetwork   = @"ComponentNetWork";
 /* 基础库 */
-NSString * const ComponentPublic    = @"XVIEWPublicComponent";
+NSString * const ComponentPublic    = @"ComponentPublic";
 /* 图片库 */
-NSString * const ComponentImage     = @"XVIEWMultiImageManager";
+NSString * const ComponentImage     = @"ComponentMedia";
 /* 音频库 */
-NSString * const ComponentAvido     = @"XVIEWAvdioManager";
+NSString * const ComponentAvido     = @"ComponentAvdio";
 /* 视频库 */
-NSString * const ComponentVideo     = @"XVIEWVideoManager";
+NSString * const ComponentVideo     = @"ComponentVideo";
 /* 扫码库 */
-NSString * const ComponentScanCode  = @"XVIEWScanCodeManager";
+NSString * const ComponentScanCode  = @"ComponentQR";
 /* QQ库 */
-NSString * const ComponentQQ        = @"XVIEWTencentManager";
+NSString * const ComponentQQ        = @"ComponentQQ";
 /* 微信库 */
-NSString * const ComponentWechat    = @"XVIEWWeChatManager";
+NSString * const ComponentWechat    = @"ComponentWeChat";
 /* 微博库 */
-NSString * const ComponentSina      = @"XVIEWWeiboManager";
+NSString * const ComponentSina      = @"ComponentSina";
 /* 阿里库 */
-NSString * const ComponentAli       = @"XVIEWAliManager";
+NSString * const ComponentAli       = @"ComponentAliPay";
 /* 连连库 */
-NSString * const ComponentLLpay     = @"XVIEWLLPayManager";
+NSString * const ComponentLLpay     = @"ComponentLLPay";
 /* 定位库 */
-NSString * const ComponentALocation = @"XVIEWLocationManager";
+NSString * const ComponentALocation = @"ComponentALocation";
 /* 导航库 */
-NSString * const ComponentNavi      = @"XVIEWNaviManager";
+NSString * const ComponentNavi      = @"ComponentANavi";
 /* 高德库 */
-NSString * const ComponentAmap      = @"XVIEWAMapManager";
+NSString * const ComponentAmap      = @"ComponentAmap";
 /* 友盟库 */
-NSString * const ComponentUmeng     = @"XVIEWUmengManager";
+NSString * const ComponentUmeng     = @"ComponentUmeng";
 /* 统计库 */
-NSString * const ComponentAnaly     = @"XVIEWAnalyzeManager";
+NSString * const ComponentAnaly     = @"ComponentAnalytics";
 /* 推送库 */
-NSString * const ComponentPush      = @"XVIEWPushManager";
+NSString * const ComponentPush      = @"ComponentPush";
 
 @implementation XVIEWCoreManager
 
