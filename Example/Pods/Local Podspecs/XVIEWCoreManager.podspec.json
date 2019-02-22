@@ -1,6 +1,6 @@
 {
   "name": "XVIEWCoreManager",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "summary": "核心中转站",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaheng666/XVIEWCoreManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:xiaheng666/XVIEWCoreManager.git",
-    "tag": "0.1.6"
+    "tag": "0.1.7"
   },
   "platforms": {
     "ios": "8.0"
