@@ -9,6 +9,16 @@
 #import "XVIEWCoreManager.h"
 #import "ZDRouter.h"
 #import "Component.h"
+typedef enum : NSUInteger {
+    PlatFormWeChat,
+    PlatFormTencent,
+    PlatFormWebo,
+    PlatFormAli,
+    PlatFormAmap,
+    PlatFormUmeng,
+    PlatFormUAnalyze,
+    PlatFormUPush
+} Platform;
 
 /* 网络库 */
 NSString * const ComponentNetwork   = @"ComponentNetWork";
@@ -61,25 +71,28 @@ NSString * const ComponentPush      = @"ComponentPush";
     NSInteger platform = [dict[@"platform"] integerValue];
     switch (platform) {
         case PlatFormWeChat:
-        type = ComponentWechat;
-        break;
+            type = ComponentWechat;
+            break;
         case PlatFormTencent:
-        type = ComponentQQ;
-        break;
+            type = ComponentQQ;
+            break;
         case PlatFormWebo:
-        type = ComponentSina;
-        break;
+            type = ComponentSina;
+            break;
         case PlatFormAli:
-        type = ComponentAli;
-        break;
+            type = ComponentAli;
+            break;
         case PlatFormAmap:
-        type = ComponentAmap;
-        break;
+            type = ComponentAmap;
+            break;
         case PlatFormUmeng:
-        type = ComponentUmeng;
-        break;
+            type = ComponentUmeng;
+            break;
+        case PlatFormUPush:
+            type = ComponentPush;
+            break;
         default:
-        break;
+            break;
     }
     [[ZDRouter sharedRouter] performTarget:type withAction:@"registerApp:" andParam:dict];
 }
