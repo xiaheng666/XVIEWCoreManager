@@ -49,7 +49,7 @@ extern NSString * const ComponentPush;
     
 - (void) initPlatformWithDict:(NSDictionary *)dict;
     
-- (BOOL) handleUrl:(NSURL *)url;
+- (BOOL) handleUrl:(NSDictionary *)dict;
     
 - (void) registerDevice:(NSDictionary *)dict;
     

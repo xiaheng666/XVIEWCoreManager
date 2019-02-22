@@ -10,17 +10,6 @@
 #import "ZDRouter.h"
 #import "Component.h"
 
-typedef enum : NSUInteger {
-    PlatFormWeChat,
-    PlatFormTencent,
-    PlatFormWebo,
-    PlatFormAli,
-    PlatFormAmap,
-    PlatFormUmeng,
-    PlatFormUAnalyze,
-    PlatFormUPush
-} Platform;
-
 /* 网络库 */
 NSString * const ComponentNetwork   = @"ComponentNetWork";
 /* 基础库 */
@@ -87,7 +76,7 @@ NSString * const ComponentPush      = @"ComponentPush";
         type = ComponentAmap;
         break;
         case PlatFormUmeng:
-        type = ComponentAnaly;
+        type = ComponentUmeng;
         break;
         default:
         break;
@@ -95,7 +84,8 @@ NSString * const ComponentPush      = @"ComponentPush";
     [[ZDRouter sharedRouter] performTarget:type withAction:@"registerApp:" andParam:dict];
 }
     
-- (BOOL) handleUrl:(NSURL *)url {
+- (BOOL) handleUrl:(NSDictionary *)dict {
+    NSURL *url = dict[@"url"];
     NSString *str = [NSString string];
     if ([url.host isEqualToString:@"safepay"] || [url.host isEqualToString:@"platformapi"]) {
         str = ComponentAli;

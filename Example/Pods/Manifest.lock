@@ -1,5 +1,5 @@
 PODS:
-  - XVIEWCoreManager (0.1.5)
+  - XVIEWCoreManager (0.1.6)
 
 DEPENDENCIES:
   - XVIEWCoreManager (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XVIEWCoreManager: 303a153c39774a481836865ba7a166a799b1bc73
+  XVIEWCoreManager: 0f4c38977840360e89e0777e16db6ee098c468e6
 
 PODFILE CHECKSUM: dd710669156f2165151662f66936fdfebe8b34b0
 
