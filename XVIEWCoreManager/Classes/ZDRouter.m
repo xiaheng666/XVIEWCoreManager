@@ -134,16 +134,6 @@
         [invocation getReturnValue:&dic];
         return dic;
     }
-//    else if (strcmp(returnType, "@") == 0) {
-//        NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:methodSign];
-//        [invocation setTarget:object];
-//        [invocation setSelector:sel];
-//        [invocation setArgument:&param atIndex:2];
-//        [invocation invoke];
-//        NSDictionary *dict = nil;
-//        [invocation getReturnValue:&dict];
-//        return dict;
-//    }
     #pragma clang diagnostic push
     #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
     return [object performSelector:sel withObject:object withObject:param];

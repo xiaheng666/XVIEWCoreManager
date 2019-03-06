@@ -35,12 +35,14 @@
 		<key>Share</key>
 		<string>aliShare:</string>
 	</dict>
-	<key>ComponentLLPay</key>
+	<key>ComponentLianLian</key>
 	<dict>
 		<key>target</key>
 		<string>LLPay</string>
 		<key>Pay</key>
-		<string>pay:</string>
+		<string>llPay:</string>
+		<key>Sign</key>
+		<string>llSign:</string>
 	</dict>
 	<key>ComponentQQ</key>
 	<dict>
@@ -77,23 +79,29 @@
 		<key>Share</key>
 		<string>weiboShare:</string>
 	</dict>
-	<key>ComponentALocation</key>
+	<key>ComponentLocation</key>
 	<dict>
 		<key>target</key>
 		<string>Location</string>
-		<key>OnceLocation</key>
+		<key>Once</key>
 		<string>location:</string>
-		<key>StartLocation</key>
+		<key>Keep</key>
 		<string>lastLocation:</string>
-		<key>StopLocation</key>
+		<key>StopKeep</key>
 		<string>stopLocation:</string>
+		<key>StopSend</key>
+		<string>stopSend:</string>
 	</dict>
-	<key>ComponentANavi</key>
+	<key>ComponentNavi</key>
 	<dict>
 		<key>target</key>
 		<string>Navi</string>
-		<key>Navi</key>
-		<string>navi:</string>
+		<key>Walking</key>
+		<string>walk:</string>
+		<key>Riding</key>
+		<string>ride:</string>
+		<key>Driving</key>
+		<string>drive:</string>
 	</dict>
 	<key>ComponentPush</key>
 	<dict>
@@ -133,9 +141,9 @@
 		<string>scan:</string>
 		<key>Photo</key>
 		<string>recognize:</string>
-		<key>SetImage</key>
+		<key>Create</key>
 		<string>setImage:</string>
-		<key>GetImage</key>
+		<key>Parse</key>
 		<string>getCode:</string>
 	</dict>
 	<key>ComponentMedia</key>
@@ -155,11 +163,11 @@
 		<key>Save</key>
 		<string>saveImage:</string>
 	</dict>
-	<key>ComponentPublic</key>
+	<key>ComponentMobile</key>
 	<dict>
 		<key>target</key>
 		<string>Public</string>
-		<key>Call</key>
+		<key>CallPhone</key>
 		<string>call:</string>
 		<key>Clean</key>
 		<string>clean:</string>
@@ -167,9 +175,9 @@
 		<string>changeStatusBar:</string>
 		<key>Clipboard</key>
 		<string>copyToBoard:</string>
-		<key>Message</key>
+		<key>SendSMS</key>
 		<string>sendMessage:</string>
-		<key>Addresses</key>
+		<key>Contacts</key>
 		<string>getAddress:</string>
 		<key>Device</key>
 		<string>getDeviceInfo:</string>
@@ -201,16 +209,20 @@
 		<string>appShare:</string>
 		<key>Badge</key>
 		<string>setBadge:</string>
+		<key>FlashLight</key>
+		<string>openSplash:</string>
 	</dict>
-	<key>ComponentNetWork</key>
+	<key>ComponentHttp</key>
 	<dict>
 		<key>target</key>
 		<string>Network</string>
-		<key>Upload</key>
+		<key>FileUpload</key>
 		<string>uploadMultiFile:</string>
-		<key>Request</key>
+		<key>HttpGet</key>
 		<string>request:</string>
-		<key>Download</key>
+		<key>OnEvent</key>
+		<string>request:</string>
+		<key>FileDownload</key>
 		<string>download:</string>
 		<key>Check</key>
 		<string>checkNetwork:</string>
@@ -224,6 +236,15 @@
 	<dict>
 		<key>target</key>
 		<string>Umeng</string>
+	</dict>
+	<key>ComponentApp</key>
+	<dict>
+		<key>target</key>
+		<string>Public</string>
+		<key>JumpWeb</key>
+		<string>goToWeb:</string>
+		<key>JumpBrowser</key>
+		<string>goToBrowser:</string>
 	</dict>
 </dict>
 </plist>

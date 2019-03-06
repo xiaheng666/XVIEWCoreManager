@@ -9,6 +9,7 @@
 #import "XVIEWCoreManager.h"
 #import "ZDRouter.h"
 #import "Component.h"
+
 typedef enum : NSUInteger {
     PlatFormWeChat,
     PlatFormTencent,
