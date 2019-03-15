@@ -6,14 +6,16 @@
 	<dict>
 		<key>target</key>
 		<string>Video</string>
-		<key>Video</key>
+		<key>Record</key>
 		<string>video:</string>
+		<key>Play</key>
+		<string>play:</string>
 	</dict>
-	<key>ComponentAvdio</key>
+	<key>ComponentAudio</key>
 	<dict>
 		<key>target</key>
 		<string>Avdio</string>
-		<key>Play</key>
+		<key>Start</key>
 		<string>play:</string>
 		<key>Resume</key>
 		<string>resume:</string>
@@ -111,11 +113,11 @@
 		<string>setAlias:</string>
 		<key>DeleteAlias</key>
 		<string>deleteAlias:</string>
-		<key>AddTags</key>
+		<key>AddTag</key>
 		<string>addTags:</string>
-		<key>DeleteTags</key>
+		<key>DeleteTag</key>
 		<string>deleteTags:</string>
-		<key>GetAllTags</key>
+		<key>GetTags</key>
 		<string>getAllTags:</string>
 	</dict>
 	<key>ComponentAnalytics</key>
@@ -141,9 +143,9 @@
 		<string>scan:</string>
 		<key>Photo</key>
 		<string>recognize:</string>
-		<key>Create</key>
-		<string>setImage:</string>
 		<key>Parse</key>
+		<string>setImage:</string>
+		<key>Create</key>
 		<string>getCode:</string>
 	</dict>
 	<key>ComponentMedia</key>
@@ -155,9 +157,7 @@
 		<key>Photo</key>
 		<string>choosePics:</string>
 		<key>Video</key>
-		<string>choosePics:</string>
-		<key>Audio</key>
-		<string>audio</string>
+		<string>chooseVideos:</string>
 		<key>Base64</key>
 		<string>transmitToBase64:</string>
 		<key>Save</key>
@@ -169,7 +169,7 @@
 		<string>Public</string>
 		<key>CallPhone</key>
 		<string>call:</string>
-		<key>Clean</key>
+		<key>CleanCache</key>
 		<string>clean:</string>
 		<key>StatusBar</key>
 		<string>changeStatusBar:</string>
@@ -183,15 +183,17 @@
 		<string>getDeviceInfo:</string>
 		<key>App</key>
 		<string>geAppInfo:</string>
-		<key>Web</key>
+		<key>JumpWeb</key>
 		<string>goToWeb:</string>
+		<key>JumpBrowser</key>
+		<string>goToBrowser:</string>
 		<key>Pop</key>
 		<string>pop:</string>
 		<key>Active</key>
 		<string>appActive:</string>
 		<key>Preview</key>
 		<string>quickLook:</string>
-		<key>Snip</key>
+		<key>ScreenShot</key>
 		<string>snipScreen:</string>
 		<key>Shock</key>
 		<string>shock:</string>
@@ -209,19 +211,21 @@
 		<string>appShare:</string>
 		<key>Badge</key>
 		<string>setBadge:</string>
-		<key>FlashLight</key>
+		<key>FlashLamp</key>
 		<string>openSplash:</string>
+		<key>SaveImage</key>
+		<string>saveImage:</string>
 	</dict>
-	<key>ComponentHttp</key>
+	<key>ComponentNet</key>
 	<dict>
 		<key>target</key>
 		<string>Network</string>
 		<key>FileUpload</key>
 		<string>uploadMultiFile:</string>
 		<key>HttpGet</key>
-		<string>request:</string>
-		<key>OnEvent</key>
-		<string>request:</string>
+		<string>get:</string>
+		<key>HttpPost</key>
+		<string>post:</string>
 		<key>FileDownload</key>
 		<string>download:</string>
 		<key>Check</key>
@@ -245,6 +249,8 @@
 		<string>goToWeb:</string>
 		<key>JumpBrowser</key>
 		<string>goToBrowser:</string>
+		<key>SaveImage</key>
+		<string>saveImage:</string>
 	</dict>
 </dict>
 </plist>
